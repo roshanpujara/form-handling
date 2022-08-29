@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import BasicReactForm from './components/BasicReactForm'
 import Form from './components/Form'
+import HooksEffect from './components/HooksEffect'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className="App">
       {/* <BasicReactForm/> */}
-      <Form/>
+      {/* <Form/> */}
+      <HooksEffect/>
     </div>
   )
 }
