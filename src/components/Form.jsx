@@ -51,7 +51,8 @@ function Form() {
     <input autoComplete='off' type="password" name="password" id="password" value={value.password} onChange={changeValue} />
     </div>
     <div>
-    <button onSubmit={dataSubmission}>Signup</button>
+    <button type="submit
+    ">Signup</button>
     </div>
     <div>
       {newValue.map((val)=>{

@@ -3,6 +3,7 @@ import './App.css'
 import BasicReactForm from './components/BasicReactForm'
 import Form from './components/Form'
 import HooksEffect from './components/HooksEffect'
+import LoginForm from './components/loginForm'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       {/* <BasicReactForm/> */}
       {/* <Form/> */}
-      <HooksEffect/>
+      <LoginForm/>
+      {/* <HooksEffect/> */}
     </div>
   )
 }
